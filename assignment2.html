@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      nav {
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        height: 75px;
+        background-color: #fff;
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 100px;
+        box-shadow: 5px 0px 10px gray;
+      }
+      .a {
+        border: 2px solid #ddd;
+        border-radius: 10px;
+        padding: 5px 10px;
+        box-sizing: border-box;
+      }
+      .b {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        /* box-sizing: border-box; */
+      }
+      .b a {
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 22px;
+        font-weight: 600;
+        color: #444;
+        font-style: italic;
+      }
+      .b a:hover {
+        color: black;
+      }
+      .b a:active {
+        border: 1px solid black;
+        border-radius: 5px;
+        color: rgb(28, 99, 243);
+        padding: 10px;
+      }
+      .logo img {
+        width: 24px;
+        height: 24px;
+        margin-left: 20px;
+        cursor: pointer;
+      }
+      .banner {
+        /* position: relative; */
+        margin: 0px;
+        width: 100%;
+        height: 100vh;
+        background: url(Image/banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+      }
+      .banner .h {
+        background: rgba(0, 113, 187, 0.82);
+        position: relative;
+        top: 70px;
+        opacity: 0.8;
+        width: 570px;
+        height: 92.49vh;
+        box-sizing: border-box;
+        padding: 170px 60px;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+      }
+      .h h2 {
+        font-size: 45px;
+        line-height: 1.2;
+        letter-spacing: 2px;
+      }
+      .h h1 {
+        font-size: 67px;
+        font-weight: 300;
+      }
+      .h p {
+        font-size: 17px;
+        text-align: justify;
+        word-spacing: 5px;
+        line-height: 1.5;
+      }
+      .about {
+        /* top: 60rem; */
+        /* margin-top: 20px; */
+        background-color: #fff;
+        width: 100%;
+        height: 250px;
+        padding: 50px 60px;
+        text-align: center;
+        box-sizing: border-box;
+        line-height: 1.2;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .about h1 {
+        color: rgb(25, 118, 210);
+        font-style: italic;
+        font-weight: 700;
+        font-size: 40px;
+        letter-spacing: 1px;
+      }
+      .about p {
+        font-size: 29px;
+        text-align: justify;
+        font-weight: 200;
+        font-style: italic;
+        line-height: 1.6;
+      }
+      .content {
+        width: 100%;
+        height: 250vh;
+        background: url(/Image/content.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      .content .hh {
+        height: 100%;
+        background: rgba(0, 113, 187, 0.82);
+        color: #fff;
+      }
+      .hh h4 {
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        text-align: center;
+        padding: 60px 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav>
+      <div class="a">
+        <img
+          src="https://pninfosys.org/colorlogo.png"
+          width="150px"
+          height="35px"
+        />
+      </div>
+      <div class="b">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Courses</a>
+        <a href="">Certificates</a>
+        <a href="">Placements</a>
+        <a href="">Interview Question</a>
+        <a href="">Contact Us</a>
+        <a href="">Login</a>
+        <div class="logo">
+          <img src="./Image/fbicon.png" alt="facebook" />
+          <img src="./Image/yt-icon.png" alt="youtube" />
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+    <div class="banner">
+      <div class="h">
+        <h2>Welcome to</h2>
+        <h1>PNINFOSYS</h1>
+        <p>
+          We offer comprehensive internships in web development where you'll
+          gain hands-on experience working on real-world projects. Our expert
+          team will mentor you in essential web technologies, including
+          front-end and back-end development, while ensuring you build a strong
+          foundation in user experience (UX) and responsive design. In addition
+          to our training programs, we provide top-notch web services tailored
+          to meet the diverse needs of businesses. Whether you're looking to
+          create stunning websites or learn the craft, PN INFOSYS is your
+          gateway to a successful future in tech!
+        </p>
+      </div>
+    </div>
+    <div class="about">
+      <h1>Who we are ?</h1>
+      <p>
+        We are part of this IT industry since 2018, we not only developed
+        products and websites but also provides internship and trainning to
+        students and make them capable to work in this It software industry, our
+        internship and trainning program is totally based on hand to hand
+        pratical with live projects.
+      </p>
+    </div>
+    <div class="content">
+      <div class="hh">
+        <h4>
+          <i class="fa">&#xf19d;</i>Learning Enviroment,<br />Free Internship To
+          Novice Students
+        </h4>
+        <div class="container">
+          <div class="row1">
+            <div class="contenttext">
+              <h4></h4>
+              <h6></h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
