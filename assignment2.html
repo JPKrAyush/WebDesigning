@@ -112,6 +112,7 @@
         box-sizing: border-box;
         line-height: 1.2;
         font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 35px;
       }
       .about h1 {
         color: rgb(25, 118, 210);
@@ -130,23 +131,44 @@
       .content-container {
         width: 100%;
         height: 250vh;
-        background: url(/Image/content.jpg);
+        background: linear-gradient(rgba(0, 113, 187, 0.82)),url(/WebDesigning/Image/content.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;
         background-size: cover;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        padding: 10px;
       }
-      .content .hh {
-        height: 100%;
-        background: rgba(0, 113, 187, 0.82);
+      .f{
+        flex: 0 0 100%;
+        /* height: 30px; */
+        height: 10px;
+        box-sizing: border-box;
+      }
+      .head {
+        /* height: 100%; */
         color: #fff;
+        text-align: center;
       }
-      .hh h4 {
-        font-size: 50px;
+      .head h4 {
+        font-size: 34px;
         font-family: Arial, Helvetica, sans-serif;
         font-style: italic;
         text-align: center;
-        padding: 60px 0px;
+        letter-spacing: 0.2499px;
+        font-weight: 700;
+        padding: 10px 0px;
+      }
+      .row{
+        flex: 0 0 50%;
+        /* width: 50%; */
+      }
+      .row img{
+        width: 100px;
+        height: 100px;
       }
     </style>
   </head>
@@ -204,17 +226,30 @@
       </p>
     </div>
     <div class="content-container">
-      <div class="hh">
-        <h4>
+      <div class="f">
+        <h4 class="head">
           <i class="fa">&#xf19d;</i>Learning Enviroment,<br />Free Internship To
           Novice Students
         </h4>
-        <div class="container">
-          <div class="row1">
-            <div class="contenttext">
-              <h4></h4>
-              <h6></h6>
-            </div>
+      </div>
+        <div class="row col-2">
+          <h3>Web Designing</h3>
+          <p>
+            Something which makes PN INFOSYS different from other IT companies is that we train novice students and also make them work on Live projects. Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development. Web design used to be focused on designing websites for desktop browsers; however, since the mid-2010s, design for mobile and tablet browsers has become ever-increasingly important. At PN INFOSYS, we pride ourselves on being more than just another IT company. One of the key aspects that makes us stand out is our commitment to nurturing the next generation of IT professionals. We don't just provide theoretical training to novice students—we actively involve them in hands-on learning through live projects. By doing this, we ensure that our trainees gain practical experience, develop critical problem-solving skills, and are better prepared to tackle real-world challenges. This unique approach gives our students a competitive edge, allowing them to transition smoothly from learners to professionals.
+
+
+          </p>
+          </div>
+          <div class="row  col 3">
+            <img src="https://pninfosys.com/assets/e-learning-BJHR4tLg.png" alt="web designing"/>
+          </div>
+          <div class="row  col-4">
+          </div>
+          <div class="row col-5">
+          </div>
+          <div class="row  col-6">
+          </div>
+          <div class="row col-7">
           </div>
         </div>
       </div>
