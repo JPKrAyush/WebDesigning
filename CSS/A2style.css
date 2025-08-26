@@ -1,0 +1,383 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: nowrap;
+
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 90px;
+  box-shadow: 5px 0px 10px gray;
+}
+.a {
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+.b {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+
+}
+.b a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 600;
+  color: #444;
+  font-style: italic;
+}
+.b a:hover {
+  color: black;
+}
+.b a:active {
+  border: 1px solid black;
+  border-radius: 5px;
+  color: rgb(28, 99, 243);
+  padding: 10px;
+}
+.logo img {
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.banner {
+  margin: 0px;
+  width: 100%;
+  height: 100vh;
+  background: url(/Image/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.banner .h {
+  background: rgba(0, 113, 187, 0.82);
+  position: relative;
+  top: 0px;
+  opacity: 0.8;
+  width: 33.5%;
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 250px 60px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+.h h2 {
+  font-size: 30px;
+  line-height: 1.2;
+  letter-spacing: 2px;
+}
+.h h1 {
+  font-size: 45px;
+  font-weight: 300;
+}
+.h p {
+  font-size: 14px;
+  text-align: justify;
+  word-spacing: 3px;
+  line-height: 1.5;
+}
+.about {
+  /* top: 60rem; */
+  /* margin-top: 20px; */
+  background-color: #fff;
+  width: 100%;
+  height: 250px;
+  padding: 50px 60px;
+  text-align: center;
+  box-sizing: border-box;
+  line-height: 1.2;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 35px;
+}
+.about h1 {
+  color: rgb(25, 118, 210);
+  font-style: italic;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+.about p {
+  font-size: 29px;
+  text-align: justify;
+  font-weight: 200;
+  font-style: italic;
+  line-height: 1.6;
+}
+.content-container {
+  width: 100%;
+  background: linear-gradient(rgba(0, 113, 187, 0.82)), url(/Image/content.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+
+  padding: 50px 125px;
+  box-sizing: border-box;
+}
+.header {
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: #fff;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+.col {
+  flex: 1;
+}
+
+.content h5 {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+.content p {
+  box-sizing: border-box;
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 1.3px;
+  font-style: italic;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+
+  text-align: justify;
+}
+.col img {
+  box-sizing: border-box;
+}
+.colum {
+  width: 310px;
+  height: 210px;
+  flex: 1;
+}
+.colum p {
+  font-size: 32px;
+  padding-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+footer {
+  background: linear-gradient(rgba(0, 113, 187, 0.57)),
+    url(https://pninfosys.org/footerImage.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  padding: 50px 0px;
+}
+.logo-name {
+  justify-content: center;
+  font-size: 48px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0rem;
+  display: flex;
+}
+
+.contact-container {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  padding: 0px 70px;
+  box-sizing: border-box;
+  border-top: 1px solid #ddd;
+}
+.phone,
+.email,
+.address {
+  color: #ddd;
+  text-align: center;
+  padding: 30px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media(max-width:1400px){
+    nav{
+         justify-content: space-around;
+    }
+    .about{
+        padding:40px 40px 20px 40px;
+        box-sizing: border-box;
+    }
+    .about h1{
+        font-size: 35px;
+        padding-bottom:10px ;
+    }
+    .about p{
+        font-size: 20px;
+        padding:0px 110px;
+    }
+}
+
+@media(max-width:1190px){
+    nav{
+         justify-content: center;
+         gap: 10px;
+    }
+    .about{
+        padding:40px 40px 20px 40px;
+        box-sizing: border-box;
+    }
+    .about h1{
+        font-size: 35px;
+        padding-bottom:10px ;
+    }
+    .about p{
+        font-size: 20px;
+        padding:0px 110px;
+    }
+    .content-container{
+        padding: 30px 120px;
+    }
+.content h5{
+    font-size: 20px;
+}
+.content p{
+    font-size: 14px; 
+}
+.col img{
+    width: 80%;
+}
+}
+
+@media(max-width:1057px){
+    .nav{
+        gap:5px;
+    }
+    .b a{
+        font-size: 14px;
+    }
+    .logo img{
+        width: 18px;
+        height: 18px;
+    }
+    .banner .h{
+        padding: 35px 40px;
+    } 
+    .banner p{
+        font-size: 13px;
+    }
+    .content-container{
+        padding: 30px 65px;
+    }
+    .col img{
+        height: 360px;
+    }
+    .container2 .row{
+        margin: 0 70px;
+    }
+
+}
+
+@media (max-width: 768px) {
+  nav {
+    padding: 0px 20px;
+    flex-direction: column;
+    height: auto;
+    align-items: flex-start;
+  }
+
+  .a {
+    margin: 10px 0;
+  }
+
+  .b {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .b a {
+    font-size: 16px;
+    padding: 5px 0;
+  }
+
+  .banner .h {
+    width: 100%;
+    padding: 100px 20px;
+    top: 60px;
+  }
+
+  .about {
+    padding: 20px;
+    height: auto;
+  }
+
+  .about h1 {
+    font-size: 26px;
+  }
+
+  .about p {
+    font-size: 18px;
+  }
+
+  .content-container {
+    padding: 20px;
+  }
+
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .col {
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .phone,
+  .email,
+  .address {
+    font-size: 18px;
+    padding: 10px 0;
+  }
+}

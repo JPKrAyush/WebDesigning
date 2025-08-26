@@ -8,169 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
-      nav {
-        position: fixed;
-        z-index: 1;
-        width: 100%;
-        height: 75px;
-        background-color: #fff;
-        display: flex;
-        box-sizing: border-box;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0px 100px;
-        box-shadow: 5px 0px 10px gray;
-      }
-      .a {
-        border: 2px solid #ddd;
-        border-radius: 10px;
-        padding: 5px 10px;
-        box-sizing: border-box;
-      }
-      .b {
-        display: flex;
-        align-items: center;
-        gap: 30px;
-        /* box-sizing: border-box; */
-      }
-      .b a {
-        text-decoration: none;
-        text-transform: capitalize;
-        font-size: 22px;
-        font-weight: 600;
-        color: #444;
-        font-style: italic;
-      }
-      .b a:hover {
-        color: black;
-      }
-      .b a:active {
-        border: 1px solid black;
-        border-radius: 5px;
-        color: rgb(28, 99, 243);
-        padding: 10px;
-      }
-      .logo img {
-        width: 24px;
-        height: 24px;
-        margin-left: 20px;
-        cursor: pointer;
-      }
-      .banner {
-        /* position: relative; */
-        margin: 0px;
-        width: 100%;
-        height: 100vh;
-        background: url(Image/banner.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-      }
-      .banner .h {
-        background: rgba(0, 113, 187, 0.82);
-        position: relative;
-        top: 70px;
-        opacity: 0.8;
-        width: 570px;
-        height: 92.49vh;
-        box-sizing: border-box;
-        padding: 170px 60px;
-        color: #fff;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: 400;
-      }
-      .h h2 {
-        font-size: 45px;
-        line-height: 1.2;
-        letter-spacing: 2px;
-      }
-      .h h1 {
-        font-size: 67px;
-        font-weight: 300;
-      }
-      .h p {
-        font-size: 17px;
-        text-align: justify;
-        word-spacing: 5px;
-        line-height: 1.5;
-      }
-      .about {
-        /* top: 60rem; */
-        /* margin-top: 20px; */
-        background-color: #fff;
-        width: 100%;
-        height: 250px;
-        padding: 50px 60px;
-        text-align: center;
-        box-sizing: border-box;
-        line-height: 1.2;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-bottom: 35px;
-      }
-      .about h1 {
-        color: rgb(25, 118, 210);
-        font-style: italic;
-        font-weight: 700;
-        font-size: 40px;
-        letter-spacing: 1px;
-      }
-      .about p {
-        font-size: 29px;
-        text-align: justify;
-        font-weight: 200;
-        font-style: italic;
-        line-height: 1.6;
-      }
-      .content-container {
-        width: 100%;
-        height: 250vh;
-        background: linear-gradient(rgba(0, 113, 187, 0.82)),url(/WebDesigning/Image/content.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
-        background-size: cover;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        /* justify-content: center; */
-        padding: 10px;
-      }
-      .f{
-        flex: 0 0 100%;
-        /* height: 30px; */
-        height: 10px;
-        box-sizing: border-box;
-      }
-      .head {
-        /* height: 100%; */
-        color: #fff;
-        text-align: center;
-      }
-      .head h4 {
-        font-size: 34px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-style: italic;
-        text-align: center;
-        letter-spacing: 0.2499px;
-        font-weight: 700;
-        padding: 10px 0px;
-      }
-      .row{
-        flex: 0 0 50%;
-        /* width: 50%; */
-      }
-      .row img{
-        width: 100px;
-        height: 100px;
-      }
-    </style>
+    <link rel="stylesheet" href="./CSS/A2style.css">
   </head>
   <body>
     <!-- navbar start -->
@@ -226,33 +64,269 @@
       </p>
     </div>
     <div class="content-container">
-      <div class="f">
-        <h4 class="head">
-          <i class="fa">&#xf19d;</i>Learning Enviroment,<br />Free Internship To
-          Novice Students
+      <div class="header">
+        <h4>
+          <i class="fa">&#xf19d;</i>
+          Learning Environment,<br />
+          Free Internship To Novice Students
         </h4>
       </div>
-        <div class="row col-2">
-          <h3>Web Designing</h3>
+      <div class="row">
+        <div class="col content">
+          <h5>Web Designing</h5>
           <p>
-            Something which makes PN INFOSYS different from other IT companies is that we train novice students and also make them work on Live projects. Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development. Web design used to be focused on designing websites for desktop browsers; however, since the mid-2010s, design for mobile and tablet browsers has become ever-increasingly important. At PN INFOSYS, we pride ourselves on being more than just another IT company. One of the key aspects that makes us stand out is our commitment to nurturing the next generation of IT professionals. We don't just provide theoretical training to novice students—we actively involve them in hands-on learning through live projects. By doing this, we ensure that our trainees gain practical experience, develop critical problem-solving skills, and are better prepared to tackle real-world challenges. This unique approach gives our students a competitive edge, allowing them to transition smoothly from learners to professionals.
-
-
+            Something which makes PN INFOSYS different from other IT companies
+            is that we train novice students and also make them work on Live
+            projects. Web design refers to the design of websites that are
+            displayed on the internet. It usually refers to the user experience
+            aspects of website development rather than software development. Web
+            design used to be focused on designing websites for desktop
+            browsers; however, since the mid-2010s, design for mobile and tablet
+            browsers has become ever-increasingly important. At PN INFOSYS, we
+            pride ourselves on being more than just another IT company. One of
+            the key aspects that makes us stand out is our commitment to
+            nurturing the next generation of IT professionals. We don't just
+            provide theoretical training to novice students—we actively involve
+            them in hands-on learning through live projects. By doing this, we
+            ensure that our trainees gain practical experience, develop critical
+            problem-solving skills, and are better prepared to tackle real-world
+            challenges. This unique approach gives our students a competitive
+            edge, allowing them to transition smoothly from learners to
+            professionals.
           </p>
-          </div>
-          <div class="row  col 3">
-            <img src="https://pninfosys.com/assets/e-learning-BJHR4tLg.png" alt="web designing"/>
-          </div>
-          <div class="row  col-4">
-          </div>
-          <div class="row col-5">
-          </div>
-          <div class="row  col-6">
-          </div>
-          <div class="row col-7">
-          </div>
+        </div>
+        <div class="col image">
+          <img
+            src="https://pninfosys.com/assets/e-learning-BJHR4tLg.png"
+            width=" 600px;"
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div
+          class="col image"
+          style="padding-left: 100px; padding-bottom: 20px"
+        >
+          <img
+            src="http://pninfosys.org/development-4536630_1280.png"
+            width=" 450px;"
+            height="450px"
+          />
+        </div>
+        <div class="col content">
+          <h5>Web Development</h5>
+          <p>
+            Something which makes PN INFOSYS different from other IT companies
+            is that we train novice students and also make them work on Live
+            projects. Web development is the work involved in developing a
+            website for the Internet (World Wide Web) or an intranet (a private
+            network). Web development can range from developing a simple single
+            static page of plain text to complex web applications, electronic
+            businesses, and social network services. A more comprehensive list
+            of tasks to which Web development commonly refers, may include Web
+            engineering, Web design, Web content development, client liaison,
+            client-side/server-side scripting, Web server and network security
+            configuration, and e-commerce development.Among Web professionals,
+            "Web development" usually refers to the main non-design aspects of
+            building Web sites: writing markup and coding. Web development may
+            use content management systems (CMS) to make content changes easier
+            and available with basic technical skills.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col content">
+          <h5>App Development</h5>
+          <p>
+            Something which makes PN INFOSYS different from other IT companies
+            is that we train novice students and also make them work on Live
+            projects. Mobile app development is the act or process by which a
+            mobile app is developed for mobile devices, such as personal digital
+            assistants, enterprise digital assistants or mobile phones. These
+            software applications are designed to run on mobile devices, such as
+            a smartphone or tablet computer. These applications can be
+            pre-installed on phones during manufacturing platforms, or delivered
+            as web applications using server-side or client-side processing
+            (e.g., JavaScript) to provide an "application-like" experience
+            within a web browser. Application software developers also must
+            consider a long array of screen sizes, hardware specifications, and
+            configurations because of intense competition in mobile software and
+            changes within each of the platforms. Mobile app development has
+            been steadily growing, in revenues and jobs created. A 2013 analyst
+            report estimates there are 529,000 direct app economy jobs within
+            the EU then 28 members (including the UK), 60 percent of which are
+            mobile app developers.
+          </p>
+        </div>
+        <div class="col image" style="margin-left: 80px">
+          <img
+            src="http://pninfosys.org/3d-illustration-of-web-development-png.png"
+            width=" 450px;"
+          />
         </div>
       </div>
     </div>
+    <div
+      class="container2"
+      style="display: flex; flex-direction: column; margin-bottom: 80px"
+    >
+      <div class="row" style="margin: 0px 100px; margin-top: 80px">
+        <div class="colum">
+          <center>
+            <img
+              src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-1024.png"
+              width="150px"
+              height="150px"
+            />
+            <p>ReactJS</p>
+          </center>
+        </div>
+        <div class="colum">
+          <center>
+            <img
+              src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/21_Angular_logo_logos-1024.png"
+              width="150px"
+              height="150px"
+            />
+            <p>Angular</p>
+          </center>
+        </div>
+        <div class="colum">
+          <center>
+            <img
+              src="https://cdn4.iconfinder.com/data/icons/logos-3/456/nodejs-new-pantone-black-1024.png"
+              width="150px"
+              height="150px"
+            />
+            <p>NodeJS</p>
+          </center>
+        </div>
+        <div class="colum">
+          <center>
+            <img
+              src="https://cdn1.iconfinder.com/data/icons/ionicons-fill-vol-2/512/logo-nodejs-256.png"
+              width="150px"
+              height="150px"
+            />
+            <p>ExpressJS</p>
+          </center>
+        </div>
+      </div>
+      <div class="row" style="margin: 0px 100px">
+        <div class="colum">
+          <center>
+            <img
+              src="https://cdn4.iconfinder.com/data/icons/logos-3/512/mongodb-2-256.png"
+              width="150px"
+              height="150px"
+            />
+            <p>MongoDB</p>
+          </center>
+        </div>
+        <div class="colum">
+          <center>
+            <img
+              src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-html-5-512.png"
+              width="150px"
+              height="150px"
+            />
+            <p>HTML</p>
+          </center>
+        </div>
+        <div class="colum">
+          <center>
+            <img
+              src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png"
+              width="150px"
+              height="150px"
+            />
+            <p>CSS</p>
+          </center>
+        </div>
+        <div class="colum">
+          <center>
+            <img
+              src="https://cdn0.iconfinder.com/data/icons/font-awesome-brands-vol-1/576/bootstrap-512.png"
+              width="150px"
+              height="150px"
+            />
+            <p>BootStrap</p>
+          </center>
+        </div>
+      </div>
+      <div class="row" style="margin: 0px 100px">
+        <div class="colum">
+          <center>
+            <img
+              src="https://icon.icepanel.io/Technology/svg/JavaScript.svg"
+              width="150px"
+              height="150px"
+            />
+            <p>JavaScript</p>
+          </center>
+        </div>
+        <div class="colum">
+          <center>
+            <img
+              src="https://cdn1.iconfinder.com/data/icons/unicons-line-vol-2/24/database-128.png"
+              width="150px"
+              height="150px"
+            />
+            <p>MySQL</p>
+          </center>
+        </div>
+        <div class="colum">
+          <center>
+            <img
+              src="https://cdn4.iconfinder.com/data/icons/logos-3/568/php-logo-128.png"
+              width="150px"
+              height="150px"
+            />
+            <p>PHP</p>
+          </center>
+        </div>
+        <div class="colum">
+          <center>
+            <img
+              src="https://www.logo.wine/a/logo/Laravel/Laravel-Logo.wine.svg"
+              width="150px"
+              height="150px"
+            />
+            <p>Laravel</p>
+          </center>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="logo-name">
+       <span style="color: white;">PN</span>
+       <span style="color: black;">INFO</span>
+       <span style="color: white;">SYS</span>
+      </div>
+      <div class="contact-container">
+        <div class="email">
+          <h5><i class="fa fa-envelope"></i> Email</h5>
+          <h5>www.pninfosys.com</h5>
+          <h5>support@pninfosys.com</h5>
+        </div>
+        <div class="phone">
+          <h5><i class="fa">&#xf095;</i> Phone</h5>
+          <h5>+91 7000846823</h5>
+          <h5>+91 7415289378</h5>
+        </div>
+     
+      <div class="address">
+        <h5><i class='fas'>&#xf3c5;</i> Street Address</h5>
+        <center>
+          <h5>
+            MIG-332 Darpan Colony,Thatipur,<br/>Gwalior,Madhya Pradesh
+          </h5>
+        </center>
+      </div>
+       </div>
+      <div class="copy" style="text-align: center; margin-top: 25px; font-size: 20px; color: #ddd; box-sizing: border-box;">
+        <p>Copyright &copy; AYUSH</p>
+      </div>
+    </footer>
   </body>
 </html>
